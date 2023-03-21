@@ -15,7 +15,7 @@
             </header>
         <?php
         try{
-        $db = new PDO('mysql:host=localhost;dbname=luuks_vakantiehuis', 'root', 'usbw');
+        $db = new PDO('mysql:host=localhost;dbname=luuks_vakantiehuis', 'test');
         $sql = "SELECT * FROM Klant
         ORDER BY Klantnummer DESC
         LIMIT 0,1 ";

@@ -11,7 +11,7 @@
 <body>
     <?php
     try {
-        $db = new PDO('mysql:host=localhost;dbname=luuks_vakantiehuis', 'root', 'usbw');
+        $db = new PDO('mysql:host=localhost;dbname=luuks_vakantiehuis', 'test');
 
         $sql = "UPDATE Klant
                 SET Geslacht = ?, 

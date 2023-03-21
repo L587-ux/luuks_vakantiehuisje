@@ -15,8 +15,7 @@
         <?php
         try {
             // Verbinding maken
-            $db = new PDO('mysql:host=localhost;dbname=luuks_vakantiehuis', 'root', 'usbw');
-
+            $db = new PDO('mysql:host=localhost;dbname=luuks_vakantiehuis', 'test');
             // De SQL opdracht 
             $sql = "INSERT INTO review (titel, inhoud, auteur, sterren)
             VALUES (?,?,?,?)"; // Maak een SQL frame statement met placeholders

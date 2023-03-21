@@ -20,7 +20,7 @@
         U ontvangt dan binnen 5 werkdagen een definitieve bevestiging.</h4>
       <form action="reserveringopslaan.php" method="post">
         <?php
-        // $db = new PDO('mysql:host=localhost;dbname=luuks_vakantiehuis', 'root', 'usbw');
+        // $db = new PDO('mysql:host=localhost;dbname=luuks_vakantiehuis', 'test');
 
         // $sql = "SELECT Klantnummer FROM klant ORDER BY Klantnummer DESC LIMIT 0,1";
 

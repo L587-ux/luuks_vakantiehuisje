@@ -17,7 +17,7 @@
         </header>
         <?php
         try {
-            $db = new PDO('mysql:host=localhost;dbname=luuks_vakantiehuis', 'root', 'usbw');
+            $db = new PDO('mysql:host=localhost;dbname=luuks_vakantiehuis', 'test');
             $sql = "INSERT INTO Klant (Klantnummer, Geslacht, Voornaam, Tussenvoegsel, Achternaam, Adres, Postcode, Woonplaats, Telefoonnummer, Email) VALUES (?,?,?,?,?,?,?,?,?,?)";
             $stmt = $db->prepare($sql);
             $resultaat = $stmt->execute([

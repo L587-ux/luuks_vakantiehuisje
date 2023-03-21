@@ -10,7 +10,7 @@
 
 <body>
     <?php
-    $db = new PDO('mysql:host=localhost;dbname=luuks_vakantiehuis', 'root', 'usbw');
+    $db = new PDO('mysql:host=localhost;dbname=luuks_vakantiehuis', 'test');
 
     $sql = "SELECT * FROM Klant INNER JOIN Reservering ON Reserveringsnummer = Klantnummer WHERE Klantnummer = ?";
     $stmt = $db->prepare($sql);

@@ -14,7 +14,7 @@
                 <h1 class='speciaal-lettertype'> Reservering wijzigen </h1>
             </header>
         <?php
-        $db = new PDO('mysql:host=localhost;dbname=luuks_vakantiehuis', 'root', 'usbw'); 
+        $db = new PDO('mysql:host=localhost;dbname=luuks_vakantiehuis', 'test'); 
         $sql = "UPDATE Klant
                 SET 
                 Geslacht = ?, 
