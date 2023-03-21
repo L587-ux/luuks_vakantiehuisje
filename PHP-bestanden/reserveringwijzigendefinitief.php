@@ -41,8 +41,8 @@
         //
         $reservering = [
             $_POST['Gewenste_aankomstdatum'],
-            $_POST['Aantal_personen'],
             $_POST['Aantal_nachten'],
+            $_POST['Aantal_personen'],
             $_POST['Klantnummer'],
         ];
 
