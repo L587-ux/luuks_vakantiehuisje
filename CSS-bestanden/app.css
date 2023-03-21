@@ -1,0 +1,490 @@
+#wrapper {
+    padding: 10px 0;
+    margin: auto;
+    width: 680px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #b7be48;
+    width: 507px;
+    height: 96px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+div.figure {
+    float: left;
+}
+
+#homepage {
+    background-color: #b7be48;
+    width: 163px;
+    height: 80px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+#overnachten {
+    background-color: #b7be48;
+    width: 163px;
+    height: 80px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+div#reviewnu {
+    background-color: #b7be48;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+#omgeving {
+    background-color: #b7be48;
+    width: 162px;
+    height: 80px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 0px;
+    float: left;
+}
+
+#faciliteiten {
+    background-color: #b7be48;
+    width: 162px;
+    height: 80px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 0px;
+    float: left;
+}
+
+#reserveren {
+    background-color: #b7be48;
+    width: 162px;
+    height: 80px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    float: left;
+}
+
+footer {
+    /* background-color: #b7be48; */
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+#groen-blok {
+    background-color: #b7be48;
+    height: 60px;
+    width: 240px;
+    margin-right: 220px;
+    margin-left: 220px;
+    clear: both;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 18pt;
+}
+
+#omschrijving {
+    background-color: #b7be48;
+    width: 400px;
+    height: 500px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 268px;
+    font-family: arial;
+    text-align: center;
+    background-color: #b7be48;
+}
+
+td {
+    border: 1px solid black;
+}
+
+#plaatje {
+    float: left;
+    margin-bottom: 10px;
+}
+
+#prijsinformatie {
+    width: 268px;
+    font-family: arial;
+    text-align: left;
+    border-collapse: collapse;
+    float: left;
+    background-color: #b7be48;
+}
+
+#extraprijsinformatieblok {
+    width: 268px;
+    height: 277px;
+    background-color: #b7be48;
+    margin-top: 10px;
+    float: left;
+}
+
+#omgevingteksteen {
+    background-color: #b7be48;
+    width: 335px;
+    height: 335px;
+    float: left;
+    margin-right: 10px;
+}
+
+#omgevingteksttwee {
+    background-color: #b7be48;
+    width: 335px;
+    height: 335px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#omgevingtekstdrie {
+    background-color: #b7be48;
+    width: 335px;
+    height: 335px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#plaatjestrand {
+    float: left;
+    margin-bottom: 0px;
+}
+
+#plaatjezeeaquarium {
+    float: left;
+    margin-top: 10px;
+}
+
+#plaatjevuurtoren {
+    float: left;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: arial;
+    font-size: 30pt;
+    color: #3d4891;
+}
+
+h2 {
+    font-family: arial;
+    font-size: 20pt;
+    color: #3d4891;
+}
+
+#reserverenteksteen {
+    margin-top: 0px;
+    float: left;
+}
+
+h4 {
+    text-align: left;
+    font-family: arial;
+    font-weight: normal;
+}
+
+#geslachtafstand {
+    font-family: arial;
+}
+
+#manblok {
+    font-family: arial;
+}
+
+#vrouwblok {
+    font-family: arial;
+    margin-bottom: 10px;
+}
+
+#voornaamafstand {
+    margin-bottom: 0px;
+    font-family: arial;
+    display: block;
+}
+
+#voornaam {
+    width: 200px;
+}
+
+#tussenvoegselafstand {
+    margin-bottom: 0px;
+    font-family: arial;
+    display: block;
+    margin-top: 10px;
+}
+
+#tussenvoegsel {
+    width: 100px;
+}
+
+#achternaamafstand {
+    margin-bottom: 0px;
+    font-family: arial;
+    display: block;
+    margin-top: 10px;
+}
+
+#achternaam {
+    width: 200px;
+}
+
+#adresafstand {
+    margin-bottom: 0px;
+    font-family: arial;
+    display: block;
+    margin-top: 10px;
+}
+
+#adres {
+    width: 200px;
+}
+
+#postcodeafstand {
+    margin-bottom: 0px;
+    font-family: arial;
+    display: block;
+    margin-top: 10px;
+}
+
+#postcode {
+    width: 200px;
+}
+
+#woonplaatsafstand {
+    margin-bottom: 0px;
+    font-family: arial;
+    display: block;
+    margin-top: 10px;
+}
+
+#woonplaats {
+    width: 200px;
+}
+
+#telefoonnummerafstand {
+    margin-bottom: 0px;
+    font-family: arial;
+    display: block;
+    margin-top: 10px;
+}
+
+#telefoonnummer {
+    width: 200px;
+}
+
+#emailafstand {
+    margin-bottom: 0px;
+    font-family: arial;
+    display: block;
+    margin-top: 10px;
+}
+
+#email {
+    width: 200px;
+}
+
+#aankomstdatumafstand {
+    margin-bottom: 0px;
+    font-family: arial;
+    display: block;
+    margin-top: 10px;
+}
+
+#aankomstdatum {
+    width: 200px;
+}
+
+#aantalnachtenafstand {
+    margin-bottom: 0px;
+    font-family: arial;
+    display: block;
+    margin-top: 10px;
+}
+
+#aantalnachten {
+    width: 30px;
+}
+
+#aantalpersonenafstand {
+    margin-bottom: 0px;
+    font-family: arial;
+    display: block;
+    margin-top: 10px;
+}
+
+#aantalpersonen {
+    width: 30px;
+}
+
+#verzenden {
+    display: block;
+    border-radius: 10px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+#boeknu,
+#reviewnu {
+    padding: 10px 15px;
+    background-color: #b7be48;
+}
+
+h6 {
+    text-align: left;
+    color: black;
+    font-family: arial;
+}
+
+span.extraprijsinformatiespan {
+    text-align: left;
+    font-family: arial;
+    color: black;
+    font-size: 12pt;
+}
+
+#bovenstetekstomschrijving,
+#onderstetekstomschrijving {
+    font-size: 12pt;
+    color: black;
+    font-family: arial;
+    text-align: left;
+}
+
+#middelstetekstomschrijving {
+    font-size: 20pt;
+    color: black;
+    font-family: arial;
+    text-align: left;
+}
+
+span.omgevingstekstspan {
+    text-align: left;
+    color: black;
+    font-size: 12pt;
+    font-family: arial;
+}
+
+h3 {
+    color: black;
+    font-size: 20pt;
+    font-family: arial;
+    text-align: left;
+    font-weight: normal;
+}
+
+span.dikgedrukt {
+    font-weight: bold;
+}
+
+.logo {
+    height: 96px;
+    width: 173px;
+}
+
+.plaatjeeen {
+    width: 680px;
+    height: 378px;
+}
+
+.plaatjetwee {
+    width: 680px;
+    height: 443px;
+}
+
+.plaatjedrie {
+    width: 335px;
+    height: 335px;
+}
+
+.plaatjevier {
+    width: 335px;
+    height: 335px;
+}
+
+.plaatjevijf {
+    width: 335px;
+    height: 335px;
+}
+
+ul {
+    float: left;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    list-style-type: disc;
+}
+
+.reserverings-bevestiging {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.reservering-wijzigen {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a.reserverings-bevestiging {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3d4891;
+    font-size: 14pt;
+    text-align: center;
+    font-weight: bold;
+}
+
+a.reservering-wijzigen {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3d4891;
+    font-size: 14pt;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1.speciaal-lettertype {
+    font-size: 28t;
+}
+
+.center {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}

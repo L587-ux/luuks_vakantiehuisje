@@ -1,0 +1,218 @@
+#wrapper {
+  margin: auto;
+  width: 680px;
+}
+
+header {
+  background-color: #b7be48;
+  width: 507px;
+  height: 96px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+div.figure {
+  float: left;
+}
+
+#zwembad {
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #b7be48;
+  height: 60px;
+  width: 202px;
+  margin-right: 239px;
+  margin-left: 239px;
+  clear: both;
+}
+
+#zwembad {
+  float: left;
+  margin-right: 10px;
+}
+
+#fietsverhuur {
+  float: left;
+}
+
+#restaurant {
+  float: left;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+#speelparadijs {
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#video {
+  float: left;
+}
+
+#boeknu {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  font-family: arial;
+  font-size: 15pt;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+  width: 202px;
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  font-family: arial;
+  font-size: 30pt;
+  color: #3d4891;
+}
+
+#hallo {
+  font-family: arial;
+  color: black;
+  float: left;
+}
+
+#hallotwee {
+  margin-right: 279px;
+  font-family: arial;
+  color: black;
+  float: right;
+}
+
+#hallodrie {
+  font-family: arial;
+  color: black;
+  float: left;
+}
+
+#hallovier {
+  margin-right: 270px;
+  font-family: arial;
+  color: black;
+  float: right;
+}
+
+span.dikgedrukt {
+  font-weight: bold;
+}
+
+.logo {
+  height: 96px;
+  width: 173px;
+}
+
+.plaatjezes {
+  width:293px;
+  height:196px;
+}
+
+.plaatjezeven {
+  width:370px;
+  height:196px;
+}
+
+.plaatjeacht {
+  width:293px;
+  height:196px;
+}
+
+.plaatjenegen {
+  width:370px;
+  height:196px;
+}
+
+iframe {
+  width:680px;
+  height:435px;
+}
+
+#homepage {
+  background-color: #b7be48;
+  width: 163px;
+  height: 80px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  float: left;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-family: arial;
+  font-size: 18pt;
+}
+
+#overnachten {
+  background-color: #b7be48;
+  width: 163px;
+  height: 80px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  float: left;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-family: arial;
+  font-size: 18pt;
+}
+
+#omgeving {
+  background-color: #b7be48;
+  width: 162px;
+  height: 80px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 0px;
+  float: left;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-family: arial;
+  font-size: 18pt;
+}
+
+#faciliteiten {
+  background-color: #b7be48;
+  width: 162px;
+  height: 80px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 0px;
+  float: left;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-family: arial;
+  font-size: 18pt;
+}
+
+#reserveren {
+  background-color: #b7be48;
+  width: 162px;
+  height: 80px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  float: left;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-family: arial;
+  font-size: 18pt;
+}

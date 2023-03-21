@@ -1,0 +1,124 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.nav-link {
+    display: grid;
+    place-items: center;
+    margin-bottom: 30px;
+}
+
+#reviews {
+    width: 80vw;
+    margin: 30px auto;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+
+.review-card {
+    padding: 20px 15px;
+    background-color: #fefff2;
+    border: 3px solid #b7be48;
+    border-radius: 10px;
+    width: calc(20vw - 30px);
+    height: 250px;
+    display: flex;
+    flex-flow: column;
+}
+
+.titel {
+    height: 40px;
+    align-items: center;
+    display: flex;
+}
+
+ul.sterren {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 5px;
+    height: 30px;
+    padding-left: 0;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+i {
+    color: yellow;
+}
+
+p.inhoud {
+    height: 120px;
+    text-align: left;
+    margin-top: 10px;
+    max-width: 19vw;
+    word-break: break-all;
+}
+
+.auteur {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 0.8em;
+    width: 18vw;
+}
+
+h3 {
+    text-align: left;
+}
+
+a#review-link {
+    text-align: center;
+    color: #b7be48;
+    text-decoration: underline;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+input,
+textarea {
+    margin-top: 3px;
+}
+input#inhoud {
+    height: 100px;
+}
+
+.review-wrapper {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    display: block;
+}
+
+span.text-area {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+}
